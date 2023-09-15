@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body{
+    background-image: url(imagenes/pokemons-all-around-wallpaper-5120x2880_55.jpg);
+    background-size: 130%;
+}
+.title {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(59, 59, 59, 0.623);
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form input[type="number"] {
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 4px;
+    background-color: white;
+    outline: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.search-btn {
+    color: white;
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    outline: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.pokemon-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.pokemon-info {
+    background-image: url(imagenes/pokebola\ 2.jpg);
+    background-size: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    outline: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 250px;
+    height: 395px;
+    
+}
+
+.pokemon-info h3 {
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(169, 169, 169, 0.571);
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 5px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.pokemon-info p {
+    padding: 8px;
+    color: gray;
+    font-weight: 800;
+    background-color: skyblue;
+    border-radius: 8px;
+    margin: 7px;
+    text-transform: uppercase;
+} 
+
+.pokemon-info .pokemon-height {
+    background-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 6px;
+    font-weight: 800;
+}
+
+.pokemon-info .pokemon-weight {
+    background-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 6px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+.pokemon-info img {
+    width: 270px;
+    position: absolute;
+    top: 200px;
+}
+
+.error {
+    color: red;
+    font-weight: 800;
+}
